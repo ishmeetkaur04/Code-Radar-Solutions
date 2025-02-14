@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <math.h>
+
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if(pow(b,2)==a){
+    if((b*b)==a){
         printf("Yes");
     }
     else{
