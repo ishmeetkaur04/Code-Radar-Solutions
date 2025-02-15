@@ -1,21 +1,14 @@
 #include <stdio.h>
 #include <ctype.h>  
-
 int main() {
     char ch;
-
-    // Input a character
-    printf("Enter a character: ");
     scanf("%c", &ch);
-
-    // Check if the character is uppercase or lowercase
     if (isupper(ch)) {
-        printf("The character '%c' is uppercase.\n", ch);
+        printf("Uppercase");
     } else if (islower(ch)) {
-        printf("The character '%c' is lowercase.\n", ch);
+        printf("Lowercase");
     } else {
-        printf("The character '%c' is neither uppercase nor lowercase.\n", ch);
+        printf("Not an alphabet");
     }
-
     return 0;
 }
