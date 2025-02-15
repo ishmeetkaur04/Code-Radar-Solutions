@@ -6,6 +6,5 @@ int main() {
     int mask = ~(1 << n);
     num = num & mask;
     printf("%d",num);
-
     return 0;
 }
