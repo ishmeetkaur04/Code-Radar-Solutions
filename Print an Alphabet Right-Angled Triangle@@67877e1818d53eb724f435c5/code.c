@@ -8,6 +8,7 @@ for (int i=65;i<=n+64;i++){
         char n=(char)j;
         printf("%c",n);
     }
+    printf("\n");
 }
     return 0;
 }
