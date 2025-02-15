@@ -3,12 +3,11 @@
 int main(){
     int n;
     scanf("%d",&n);
-    for (int i=65;i<=n+65;i++){
-        for (int j=65;i+j<((2*i)+65);j++){
-            char new=(char)j;
-            printf("%c ",new);
-        }
-        printf("\n");
+for (int i=65;i<=n+64;i++){
+    for (int j=65;j<2*i+64;j++){
+        char n=(char)j;
+        printf("%c",n);
     }
+}
     return 0;
 }
