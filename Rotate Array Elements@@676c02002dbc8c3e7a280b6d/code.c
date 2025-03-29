@@ -1,23 +1,22 @@
 #include <stdio.h>
+void reverse(int a[],int si,int ei ){
+    for(int i=si,j=ei;i<j;i++,j--){
+        int temp=a[i];
+        a[i]=a[j];
+        a[j]=temp;
+    }
+    return;
+}
 int main(){
-    int a[100];
     int n; scanf("%d",&n);
+    int a[n];
     for (int i=0;i<n;i++){
         scanf("%d\n",&a[i]);
     }
      int b; scanf("%d",&b);
      b=b%n;
-      for (int i=0;i<=n-1;i++){
-       a[i]=a[n-i-1];
-    }
-     for (int i=0;i<=b-1;i++){
-       a[i]=a[b-i-1];
-    }
-     for (int i=b;i<=n-1;i++){
-a[i]=a[n-i-1]    ;    
-    }
-   for (int i=0;i<=n-1;i++){
-       printf("%d\n",a[i]);
-    }
+reverse(a,0,n-1);
+reverse(a,0,b-1);
+reverse(a,b,n-1);
     return 0;
 }
