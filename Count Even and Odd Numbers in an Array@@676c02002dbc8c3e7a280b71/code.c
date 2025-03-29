@@ -7,13 +7,13 @@ int main(){
         scanf("%d\n",&a[i]);
     }
      int c=0;
-     int a=0;
+     int m=0;
  for (int i=0;i<n;i++){
         if(a[i]%2==0){
             c++;
         }
-        else a++;
+        else m++;
     }
-    printf("%d %d",c,a);
+    printf("%d %d",c,m);
     return 0;
 }
