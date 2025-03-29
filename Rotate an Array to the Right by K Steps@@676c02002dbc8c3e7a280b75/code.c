@@ -17,8 +17,8 @@ int main(){
     int b; scanf("%d",&b);
     b=b%n;
     reverse(a,0,n-1);
-    reverse(a,0,k-1);
-    reverse(a,k,n-1);
+    reverse(a,0,b-1);
+    reverse(a,b,n-1);
     for(int i=0;i<n;i++){
         printf("%d ",a[i]);
     }
