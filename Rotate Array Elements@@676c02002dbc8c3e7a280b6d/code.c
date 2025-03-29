@@ -10,10 +10,10 @@ int main(){
       for (int i=0;i<=n-1;i++){
        a[i]=a[n-i-1];
     }
-     for (int i=0;i<=k-1;i++){
+     for (int i=0;i<=b-1;i++){
        a[i]=a[n-i-1];
     }
-     for (int i=k;i<=n-1;i++){
+     for (int i=b;i<=n-1;i++){
     a[i]=a[n-i-1];    
     }
    for (int i=0;i<=n-1;i++){
