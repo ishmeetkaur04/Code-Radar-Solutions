@@ -12,7 +12,7 @@ int main(){
         if(a[i]+a[j]==nn){
             if(a[i]==a[j]){
                 printf("%d %d\n",a[i],a[j]);
-           
+           break;
             }
             
 else{printf("%d %d\n",a[i],a[j]);}
