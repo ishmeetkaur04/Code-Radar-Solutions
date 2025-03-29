@@ -14,6 +14,7 @@ int main(){
                 printf("%d %d\n",a[i],a[j]);
             break;
             }
+            break;
 else{printf("%d %d\n",a[i],a[j]);}
         }
      }
