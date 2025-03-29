@@ -1,7 +1,4 @@
-#include <stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
+int fibonacciseries(n){
     int a=0;
     int b=1;
     int c;
@@ -18,8 +15,6 @@ int main(){
         a=b;
         b=c;
     }
-
     }
-    return 0;
 }
  
