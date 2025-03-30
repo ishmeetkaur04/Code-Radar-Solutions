@@ -5,7 +5,7 @@ int arr[n];
 for(int i=0;i<n;i++){
     scanf("%d ",&arr[i]);
 }
-int max=a[0]; int i;
+int max=arr[0]; int i;
 for(i=0;i<n;i++){
 
     if(max<arr[i] && arr[i]%2==0 ){
