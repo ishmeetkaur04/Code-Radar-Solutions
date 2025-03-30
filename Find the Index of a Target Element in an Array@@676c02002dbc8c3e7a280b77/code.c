@@ -14,6 +14,6 @@ for(int i=0;i<n;i++){
         break;
     }
 }
-printf("%d",i);
+printf("%d",idx);
     return 0;
 }
