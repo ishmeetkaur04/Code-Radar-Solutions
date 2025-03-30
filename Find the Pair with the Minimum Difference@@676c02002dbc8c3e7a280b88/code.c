@@ -10,11 +10,10 @@ int main() {
     int n, i, diff, minDiff;
     int ele1, ele2;
 
-    printf("Enter the number of elements in the array: ");
     scanf("%d", &n);
 
     int arr[n];
-    printf("Enter %d elements:\n", n);
+   
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
@@ -36,7 +35,7 @@ int main() {
     }
 
     // Output the pair in ascending order
-    printf("Pair with the smallest difference: %d, %d\n", ele1, ele2);
+    printf("%d %d\n", ele1, ele2);
 
     return 0;
 }
