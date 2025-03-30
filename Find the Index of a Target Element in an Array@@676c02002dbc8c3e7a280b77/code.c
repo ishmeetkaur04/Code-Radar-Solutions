@@ -6,16 +6,17 @@ for(int i=0;i<n;i++){
     scanf("%d",&arr[i]);
 }
 int a;
-
+int y;
 scanf("%d",&a);int idx=0;
 for(int i=0;i<n;i++){
     if(arr[i]==a){
         idx=i;
+        y=a[i];
         break;
-        
     }
-    // else{printf("-1");}
 }
+if(y==a[i])
 printf("%d",idx);
+else printf("-1");
     return 0;
 }
