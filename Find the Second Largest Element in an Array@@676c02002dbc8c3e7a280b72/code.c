@@ -18,7 +18,7 @@ void findSecondLargest(int arr[], int size) {
 int main() {
     int n;
     scanf("%d", &n);
-    if (n <= 0) {
+    if (n==1) {
         printf("-1\n");
         return 0;
     }
