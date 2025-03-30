@@ -7,9 +7,9 @@ for(int i=0;i<n;i++){
 }
 int i;int j;int c;
 for(i=0,j=n-1;i<j;i++,j--){
-    c=0;
-    if(arr[i]==arr[j]){
-       c=1;
+    c=1;
+    if(arr[i]!=arr[j]){
+       c=0;
     }
 }
 if (n==1) printf("YES");
