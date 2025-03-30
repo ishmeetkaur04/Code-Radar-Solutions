@@ -10,6 +10,7 @@ for(i=0,j=n-1;i<j;i++,j--){
     c=0;
     if(arr[i]!=arr[j]){
        c=1;
+       break;
     }
 }
 if (n==1) printf("YES");
