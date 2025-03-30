@@ -11,11 +11,11 @@ scanf("%d",&a);int idx=0;
 for(int i=0;i<n;i++){
     if(arr[i]==a){
         idx=i;
-        y=a[i];
+        y=arr[i];
         break;
     }
 }
-if(y==a[i])
+if(y==arr[i])
 printf("%d",idx);
 else printf("-1");
     return 0;
