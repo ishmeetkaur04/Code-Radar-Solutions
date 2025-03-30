@@ -7,13 +7,9 @@ for(int i=0;i<n;i++){
 }
 int max=arr[0]; int i;
 for(i=0;i<n;i++){
-
 if(max<arr[i] && arr[i]%2==0 ){
        max=arr[i];
     }
-       else if (arr[i]%2!=0){
-max=-1;
-    }   
 }
 printf("%d",max);
     return 0;
