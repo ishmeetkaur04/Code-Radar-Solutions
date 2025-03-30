@@ -7,8 +7,9 @@ for(int i=0;i<n;i++){
 }
 int a;
 int y;
+int i;
 scanf("%d",&a);int idx=0;
-for(int i=0;i<n;i++){
+for(i=0;i<n;i++){
     if(arr[i]==a){
         idx=i;
         y=arr[i];
