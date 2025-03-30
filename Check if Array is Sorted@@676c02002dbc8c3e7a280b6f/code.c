@@ -17,9 +17,9 @@ for(int i=0;i<n-1;i++){
         }
     }
 }
-
+int c;
 for(int i=0;i<n;i++){
-    int c=0;
+    c=0;
     if(brr[i]==arr[i]){
         c=1;
     }
