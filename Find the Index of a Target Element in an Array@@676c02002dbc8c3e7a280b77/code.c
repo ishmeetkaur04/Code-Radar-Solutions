@@ -9,7 +9,7 @@ int a;
 int idx=0;
 scanf("%d",&a);
 for(int i=0;i<n;i++){
-    if(a[i]==x){
+    if(arr[i]==x){
         idx=i;
         break;
     }
