@@ -10,6 +10,7 @@ for(i=0;i<n;i++){
 if(max<arr[i] && arr[i]%2==0 ){
        max=arr[i];
     }
+    else{max=-1;}
 }
 printf("%d",max);
     return 0;
