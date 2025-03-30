@@ -12,7 +12,6 @@ int main(){
             printf("%d %d\n",a[i],a[j]);
         }
      }
-     break;
     }
     return 0;
 }
