@@ -14,7 +14,7 @@ for(i=0,j=n-1;i<j;i++,j--){
 }
 if (n==1) printf("YES");
 else if(c==1)
-printf("YES");
-else printf("NO");
+printf("NO");
+else printf("YES");
     return 0;
 }
