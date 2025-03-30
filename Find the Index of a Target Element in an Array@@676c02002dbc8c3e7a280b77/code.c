@@ -6,10 +6,10 @@ for(int i=0;i<n;i++){
     scanf("%d",arr[i]);
 }
 int a;
-int idx=0;
-scanf("%d",&a);
+
+scanf("%d",&a);int idx=0;
 for(int i=0;i<n;i++){
-    if(arr[i]==x){
+    if(arr[i]==a){
         idx=i;
         break;
     }
