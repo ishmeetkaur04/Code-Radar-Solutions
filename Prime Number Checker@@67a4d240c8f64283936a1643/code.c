@@ -9,6 +9,6 @@ int isPrime(int num){
         printf("1\n");
     }
     else{
-        printf("0");
+        printf("0\n");
     }
 }
